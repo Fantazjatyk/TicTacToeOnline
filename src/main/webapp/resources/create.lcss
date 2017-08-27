@@ -1,0 +1,9 @@
+#create{
+
+main{
+    table{
+        width:100%;
+    }
+}
+
+}

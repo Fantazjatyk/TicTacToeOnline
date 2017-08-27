@@ -1,0 +1,238 @@
+#board_section, #container nav{
+width: 100%;
+/*margin-right: 20px;*/
+}
+#chat{
+width: 250px;
+height: 500px;
+display: none !important;
+}
+
+#chat header{
+	    text-align: center;
+    padding: 0.75em;
+}
+
+#chat, #board_section, #container nav{
+display:inline-block;
+	float:left;
+	padding: 1em;
+	border-radius: 5px;
+	    border: 1px solid silver;
+		background: white;
+}
+/**/
+
+#container nav{
+	margin-top: 1em;
+}
+
+
+body{
+	background: FIREBRICK;
+}
+
+
+.tile_center_horizontal{
+border-left: none;
+border-right: none;	
+}
+
+
+
+
+
+.game-title-container{
+	    /* font-size: large; */
+    padding: 0.5em;
+    /* background: indianred; */
+    color: indianred;
+    font-weight: bold;
+    /* display: inline-block; */
+    /* border: 1px solid indianred; */
+	position: relative;
+}
+
+.tile_center_vertical{
+	border-top:none;
+	border-bottom: none;
+}
+
+#board_section table{
+	width:500px;
+	height:500px;
+}
+
+.circle .symbol-holder{
+	background: url('circle.svg') no-repeat top left;
+}
+
+.cross .symbol-holder{
+
+background: url('cross.svg') no-repeat top left;
+}
+
+.cross .symbol-holder, .circle .symbol-holder{
+	opacity: 100;
+	    background-size: 100% 100%;
+}
+
+.symbol-holder{
+		height:60%;
+	width:60%;
+	background: whitesmoke;
+	opacity:0;
+	transition: all .25s linear;
+}
+.cross{
+
+}
+
+.board-container{
+	padding: 1em;
+}
+
+#board_section table, #board_section table td{
+border-collapse: collapse;
+}
+
+#board_section table td{
+	margin:0 !important;
+	padding:0 !important;
+	height: 33.3%;
+	width:  33.3%;
+
+
+}
+
+.cross-line, .circle{
+	stroke-width: 5px;
+}
+.cross-line{
+	stroke:indianred;
+}
+
+.circle{
+	fill: transparent;
+	stroke: indianred;
+}
+#board_container{
+	
+    width: inherit;
+
+}
+
+
+
+
+
+#board_section table td > div{
+		width: 100%;
+    height: 100%;
+     box-sizing: border-box;
+}
+#container{
+	width:500px;
+	position: relative;
+	    margin: 0 auto;
+}
+
+section > div{
+	width:100%;
+	border-radius: 5px;
+	height:inherit;
+
+}
+
+#board_section > div > header{
+	    padding: 0.75em;
+    text-align: center;
+    font-size:  medium;
+}
+
+#time_left{
+    /* float: right; */
+    position: absolute;
+    padding: 0.25em;
+    /* font-weight: normal; */
+    /* color: white; */
+    /* height: 50px; */
+    right: 0;
+    background: indianred;
+    /* border: 3px solid indianred; */
+    color: white;
+    top: 0;
+    font-size: large;
+}
+
+#time_left:empty{
+	display: none;
+}
+
+.win-combination-field{
+	background: pink !important;
+}
+
+#status{
+	padding: 0.5em !important;
+	border-radius: 3px;
+	color:indianred !important;
+}
+
+.tile_center, .tile_center_vertical, .tile_center_horizontal{
+	border-color:indianred;
+}
+
+#board_section > div > header, #chat header {
+	border-bottom: 1px solid silver;
+}
+
+#status{
+		border: 5px solid indianred;
+		font-weight:bold;
+}
+
+/*
+
+    border-top: none;
+    border-bottom: none;
+
+	*/
+table td > div{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    	border-color:transparent;
+}
+
+#board_section table td > .hoverable:hover .symbol-holder{
+	   opacity:80;
+	  
+}
+
+
+#board_section table td > div{
+	transition: all .5s linear;
+}
+
+
+#mark{
+	opacity:0;
+	background: whitesmoke url(cross.svg) no-repeat top left;
+    background-size: 100% 100%;
+}
+#title, #status{
+	   padding: 1em;
+	         display: block;
+			     text-align: center;
+    box-sizing: border-box;
+}
+#status{
+
+	 font-size: large;
+}
+
+

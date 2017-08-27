@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js"></script>
+    <script th:src="@{/static/play_searcher.js}"></script>
+    <link rel="stylesheet" th:href="@{/static/player_searcher.css}" />
+    <meta name="player_username" th:content="${player_username}" />
+    <meta name="player_key" th:content="${player_key}"/>
+</head>
+
+<body>
+   <div class="animation-holder"></div>
+</body>
+
+</html>

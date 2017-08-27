@@ -1,0 +1,29 @@
+
+
+.article-content{
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+}
+
+.animation-holder{
+      animation: animacja 1s infinite;
+    /* display: inline-block; */
+    background: indianred;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    /* border-radius: 100%; */
+    border: 3px solid indianred;
+    /* height: 50%; */
+    margin: 0 auto;
+}
+
+
+@keyframes animacja{
+
+    100%{
+         transform: scale(1.5);
+    }
+}
+

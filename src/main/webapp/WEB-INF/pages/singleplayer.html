@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" th:href="@{/static/singleplayer.css}"/>
+    </head>
+    <body>
+<form method="POST" action="singleplayer.do">
+    <main id="settings">
+        <table>
+            <tr>
+                <td>Difficulty: </td>
+                <td>
+                    <select class="selection" name="level">
+                        <option value="0">Easy</option>
+                        <option value="1">Medium</option>
+                        </select>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+<td><input class="nav-element" type="submit" value="Start"/></td>
+    </footer>
+</form>
+</body>
+</html>

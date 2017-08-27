@@ -1,0 +1,163 @@
+body > main{
+	    display: block;
+    margin: 0 auto;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    background: white;
+    left: 50%;
+ 
+	border-radius:5px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+main > article > header{
+	    font-size: x-large;
+    text-align: center;
+	padding:0.5em;
+    color: indianred;
+    font-weight: bold;
+	border-bottom: 5px solid indianred;
+}
+
+body{
+    background: firebrick;
+    color:indianred !important;
+}
+main > article{
+height:100%;
+width:100%;
+}
+
+
+
+.adv{
+	text-align: center;
+    color: indianred;
+	margin: 0.25em;
+}
+
+.adv *{
+    color:whitesmoke;
+}
+
+.article-content{
+    padding: 1em;
+}
+
+
+#global_wrapper{
+        margin: 0 auto;
+    /* display: inline-block; */
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+
+#global_wrapper .sheet{
+        background: white;
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+#global_wrapper .sheet > main{
+    flex:1;
+        display: flex;
+    flex-direction: column;
+}
+#global_wrapper .sheet{
+        flex-direction: column;
+        display: flex;
+}
+
+.menu li{
+
+}
+
+#global_wrapper .sheet > footer{
+        text-align: left;
+    padding: 1em;
+}
+
+#global_wrapper > footer{
+    color:#f0cece;
+    font-size: smaller;
+    padding: .5em;
+}
+
+#global_wrapper > footer *{
+    color: #f5dede;
+}
+
+.menu li a{
+
+    font-size: large;
+   
+}
+
+.button{
+ 
+}
+
+.nav-element{
+       padding: .75em;
+    margin: 0.25em;
+
+    color: indianred;
+    border-radius: 3px;
+
+    border: 3px solid transparent;
+    transition: all .1s linear;
+    border-color: indianred;
+    border-color: firebrick;
+    border-radius: 5px;
+       background: linear-gradient(indianred, firebrick);
+      color: whitesmoke !important;
+           font-weight: bold;
+         text-decoration: none;
+         font-size: medium;
+         display: inline-block;
+}
+.nav-element *{
+    color: whitesmoke !important;
+     font-weight: bold;
+         text-decoration: none;
+}
+
+.divider{
+    width:100%;
+    height: 3px;
+    background: indianred;
+    display: none;
+}
+.nav-element:hover{
+    transform: scale(1.1);
+}
+
+#global_wrapper main > header{
+        font-size: x-large;
+    padding: 1em;
+    padding: 1em 1em .75em 1em;
+    font-weight: bold;
+        color: white;
+    background: linear-gradient(indianred, firebrick);
+}
+
+.selection{
+    border: 3px solid firebrick;
+    padding: .5em;
+    background: indianred;
+    color: white;
+    font-weight: bold;
+}
+
+.article-content{
+    font-weight: bold;
+    font-size: large;
+    flex: 1;
+}
