@@ -44,7 +44,7 @@ import ticktacktoe.playersmatch.MatchResult;
 import ticktacktoe.transport.Message;
 import ticktacktoe.transport.namespace.MessageType;
 import ticktacktoe.transport.namespace.RequestType;
-import pl.michal.szymanski.tictactoe.transport.ProxyResponse;
+import tictactoe.transport.ProxyResponse;
 import ticktacktoe.playersmatch.MatcherMessagesDeliverer;
 
 /**

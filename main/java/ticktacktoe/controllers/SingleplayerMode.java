@@ -14,8 +14,8 @@ import ticktacktoe.game.PlayFactory;
 import ticktacktoe.game.Plays;
 import ticktacktoe.game.singleplayer.SingleplayerWrapper;
 import ticktacktoe.playersmatch.MatcherHelper;
-import pl.michal.szymanski.tictactoe.ai.AILevel;
-import pl.michal.szymanski.tictactoe.play.SingleplayerPlay;
+import tictactoe.ai.AILevel;
+import tictactoe.play.SingleplayerPlay;
 
 /**
  *

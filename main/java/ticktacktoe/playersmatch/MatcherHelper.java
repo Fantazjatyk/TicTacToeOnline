@@ -26,7 +26,7 @@ package ticktacktoe.playersmatch;
 import ticktacktoe.game.Plays;
 import ticktacktoe.game.PlayFactory;
 import ticktacktoe.game.multiplayer.MultiplayerWrapper;
-import pl.michal.szymanski.tictactoe.play.Play;
+import tictactoe.play.Play;
 
 /**
  *

@@ -34,13 +34,13 @@ import ticktacktoe.transport.Message;
 import ticktacktoe.transport.namespace.InfoType;
 import ticktacktoe.transport.namespace.MessageType;
 import ticktacktoe.transport.namespace.RequestType;
-import pl.michal.szymanski.tictactoe.model.Board;
-import pl.michal.szymanski.tictactoe.model.GameResult;
-import pl.michal.szymanski.tictactoe.model.IntPoint;
-import pl.michal.szymanski.tictactoe.model.Player;
-import pl.michal.szymanski.tictactoe.play.PlayInfo;
-import pl.michal.szymanski.tictactoe.play.PlaySettings;
-import pl.michal.szymanski.tictactoe.transport.ProxyResponse;
+import tictactoe.model.Board;
+import tictactoe.model.GameResult;
+import tictactoe.model.IntPoint;
+import tictactoe.model.Player;
+import tictactoe.play.PlayInfo;
+import tictactoe.play.PlaySettings;
+import tictactoe.transport.ProxyResponse;
 
 /**
  *

@@ -14,7 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import ticktacktoe.playersmatch.MatchParticipant;
 import ticktacktoe.playersmatch.MatchParticipantsPair;
-import pl.michal.szymanski.tictactoe.transport.EventProxyResponse;
+import tictactoe.transport.EventProxyResponse;
 import ticktacktoe.playersmatch.MatcherMessagesDeliverer;
 
 /**

@@ -6,10 +6,10 @@
 package ticktacktoe.game;
 
 import java.util.concurrent.TimeUnit;
-import pl.michal.szymanski.tictactoe.ai.AILevel;
-import pl.michal.szymanski.tictactoe.play.MultiplayerPlay;
-import pl.michal.szymanski.tictactoe.play.Play;
-import pl.michal.szymanski.tictactoe.play.SingleplayerPlay;
+import tictactoe.ai.AILevel;
+import tictactoe.play.MultiplayerPlay;
+import tictactoe.play.Play;
+import tictactoe.play.SingleplayerPlay;
 
 /**
  *

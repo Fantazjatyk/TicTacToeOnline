@@ -52,7 +52,7 @@ import ticktacktoe.game.PlayParticipant;
 import ticktacktoe.game.Wrapper;
 import ticktacktoe.game.singleplayer.SingleplayerWrapper;
 import ticktacktoe.playersmatch.MatcherHelper;
-import pl.michal.szymanski.tictactoe.play.Play;
+import tictactoe.play.Play;
 
 /**
  *

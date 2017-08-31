@@ -28,8 +28,8 @@ import java.util.Map;
 import ticktacktoe.transport.Message;
 import ticktacktoe.transport.namespace.MessageType;
 import ticktacktoe.transport.namespace.RequestType;
-import pl.michal.szymanski.tictactoe.model.IntPoint;
-import pl.michal.szymanski.tictactoe.transport.ProxyResponse;
+import tictactoe.model.IntPoint;
+import tictactoe.transport.ProxyResponse;
 
 /**
  *

@@ -36,7 +36,7 @@ import ticktacktoe.game.Wrapper;
 import ticktacktoe.transport.Message;
 import ticktacktoe.transport.namespace.MessageType;
 import ticktacktoe.transport.namespace.RequestType;
-import pl.michal.szymanski.tictactoe.play.Play;
+import tictactoe.play.Play;
 
 /**
  *

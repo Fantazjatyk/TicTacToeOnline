@@ -13,8 +13,8 @@ import java.util.logging.Logger;
 import ticktacktoe.transport.Message;
 import ticktacktoe.transport.namespace.InfoType;
 import ticktacktoe.transport.namespace.MessageType;
-import pl.michal.szymanski.tictactoe.play.Play;
-import pl.michal.szymanski.tictactoe.play.PlayExecutor;
+import tictactoe.play.Play;
+import tictactoe.play.PlayExecutor;
 
 /**
  *

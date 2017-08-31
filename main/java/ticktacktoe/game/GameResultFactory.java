@@ -31,9 +31,9 @@ import ticktacktoe.game.singleplayer.SingleplayerWrapper;
 import ticktacktoe.transport.GameResult;
 import ticktacktoe.transport.GameResult.Builder;
 import ticktacktoe.transport.namespace.GameResultState;
-import pl.michal.szymanski.tictactoe.model.BoardField;
-import pl.michal.szymanski.tictactoe.model.Player;
-import pl.michal.szymanski.tictactoe.play.GameMaster;
+import tictactoe.model.BoardField;
+import tictactoe.model.Player;
+import tictactoe.play.GameMaster;
 
 /**
  *

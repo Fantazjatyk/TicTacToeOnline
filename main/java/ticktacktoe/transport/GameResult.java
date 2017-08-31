@@ -24,7 +24,7 @@
 package ticktacktoe.transport;
 
 import java.util.List;
-import pl.michal.szymanski.tictactoe.model.BoardField;
+import tictactoe.model.BoardField;
 
 /**
  *

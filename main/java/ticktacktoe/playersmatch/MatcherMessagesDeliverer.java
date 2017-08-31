@@ -23,7 +23,7 @@
  */
 package ticktacktoe.playersmatch;
 
-import pl.michal.szymanski.tictactoe.transport.ProxyResponse;
+import tictactoe.transport.ProxyResponse;
 
 /**
  *
